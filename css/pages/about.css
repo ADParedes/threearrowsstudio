@@ -1,3 +1,32 @@
+/* Signature Section (centered, visually separated) */
+.about-signature {
+    margin: 2.5rem 0 2.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-signature__inner {
+    text-align: center;
+    background: var(--color-cream, #f8f5f0);
+    border-radius: 12px;
+    padding: 1.5rem 2.5rem 1.2rem 2.5rem;
+    box-shadow: 0 2px 16px rgba(var(--color-sage-rgb, 180,200,180), 0.07);
+    border: 1.5px solid var(--color-sage, #7a9c8e);
+    max-width: 350px;
+}
+.about-signature__signoff {
+    font-family: 'Crimson Text', serif;
+    font-size: 1.1rem;
+    color: var(--text-dark, #3a2c1a);
+    margin-bottom: 0.2em;
+}
+.about-signature__name {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    color: var(--accent-terra, #b86b4b);
+    font-weight: 600;
+    margin: 0;
+}
 /* About Page Styles */
 
 /* About Hero Section */
